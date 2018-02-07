@@ -1,3 +1,3 @@
-FROM circleci/python:2.7.14
+FROM circleci/python:3.6.4-stretch
 
-RUN sudo pip install "ansible==2.4.1"
+RUN sudo pip install "ansible" --upgrade
