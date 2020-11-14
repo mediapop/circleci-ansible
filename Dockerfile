@@ -1,4 +1,4 @@
-FROM circleci/python:3.6.4-stretch
+FROM circleci/python:3.9-buster
 
 RUN sudo pip install "ansible" --upgrade
 
